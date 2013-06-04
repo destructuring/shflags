@@ -1,0 +1,4 @@
+---
+remotes:
+  primary: git@github.com:destructuring/shflags
+  secondary: git@bitbucket.org:destructuring/shflags
