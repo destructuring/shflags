@@ -16,7 +16,7 @@ MY_NAME=`basename $0`
 MY_PATH=`dirname $0`
 
 PREFIX='shflags_test_'
-SHELLS='/bin/sh /bin/bash /bin/dash /bin/ksh /bin/pdksh /bin/zsh'
+SHELLS='/bin/bash'
 TESTS=''
 for test in ${PREFIX}[a-z]*.sh; do
   TESTS="${TESTS} ${test}"
